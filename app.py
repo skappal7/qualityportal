@@ -45,6 +45,13 @@ def login_page():
     st.markdown(
         """
         <style>
+        #root > div:nth-child(1) > div > div > div > div {
+            background-color: transparent;
+        }
+        .stApp {
+            margin: 0;
+            padding: 0;
+        }
         .login-container {
             display: flex;
             justify-content: center;
